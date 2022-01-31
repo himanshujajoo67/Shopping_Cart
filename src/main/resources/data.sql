@@ -1,7 +1,7 @@
 insert into Accounts (USER_NAME, ACTIVE, PASSWORD, USER_ROLE)
 values ('employee1', true,'Test123', 'ROLE_EMPLOYEE');
 
-insert into Accounts (USER_NAME, ACTIVE, ENCRYTED_PASSWORD, USER_ROLE)
+insert into Accounts (USER_NAME, ACTIVE, PASSWORD, USER_ROLE)
 values ('manager1', true,'Test123', 'ROLE_MANAGER');
 
 ----------------
